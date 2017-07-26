@@ -69,3 +69,13 @@ body a{
     font-size: 23pt;
     font-weight: bold;
 }
+
+.container {
+  position: relative;
+}
+
+.container a {
+  position: absolute;
+  top: 50%;
+  transform: translate(0,-50%);
+}
