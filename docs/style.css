@@ -4,11 +4,16 @@ html, #tbl_wrap {
     padding: 0;
     margin: 0;
 }
-body{
-    background-color: tomato;
+body {
+    //background-color: tomato;
+    //background-color: #F56157;
+    background-color: #ED7159;
     font-family: Verdana, Geneva, Arial, sans-serif;
     font-size: 13pt;
     //color: white;
+    //color: #2A0407;
+    //color: #242021
+    color: #154850
     text-align: center;
     // font-style: italic;
     height: 100%
@@ -26,6 +31,7 @@ body{
   }
 
 body a{
+//    color: #FAF1D4;
     color: white;
     font-size:65%;
     text-decoration: none;
@@ -98,6 +104,7 @@ html, body {
   font-weight:bold;
   vertical-align: middle;
   text-align: center;
+  color: #154850;
 }
 
 .yes_no{
