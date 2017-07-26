@@ -84,7 +84,7 @@ function setCookie(cname,cvalue,exdays,url){
         /**
          * CHANGE THIS VALUE
          */
-        url = "http://default-url.mydomain.com.md";
+        url = "http://centraldistrictbrewing.com";
     }
     window.location.href=decodeURIComponent(url);
 }
