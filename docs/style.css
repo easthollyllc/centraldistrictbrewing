@@ -29,11 +29,11 @@ body a{
     color: white;
     text-decoration: none;
 }
-.main-wrapper{
-    height: 100%;
-    display: table;
-    width: 100%;
-}
+// .main-wrapper{
+//     height: 100%;
+//     display: table;
+//     width: 100%;
+// }
 .denied-wrapper { 
     background-repeat: no-repeat;
     background-color: tomato;
@@ -43,13 +43,22 @@ body a{
     font-size: 23pt;
     font-weight: bold;
 }
-.main-wrapper .wrapper-cell, .denied-wrapper .wrapper-cell {
+//.main-wrapper .wrapper-cell, .denied-wrapper .wrapper-cell {
+//    display: table-cell;
+//    vertical-align: middle;
+//}
+//.main-wrapper .centerBlock, .denied-wrapper .centerBlock {
+//    margin: 0 auto;
+//}
+
+.denied-wrapper .wrapper-cell {
     display: table-cell;
     vertical-align: middle;
 }
-.main-wrapper .centerBlock, .denied-wrapper .centerBlock {
+.denied-wrapper .centerBlock {
     margin: 0 auto;
 }
+
 .question {
     font-size: 23pt;
     font-weight: bold;
