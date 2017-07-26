@@ -7,18 +7,16 @@
     <script type="text/javascript" src="age.js"></script>
   </head>
   <body>
-    <div class="main-wrapper">
-      <div class="wrapper-cell">
-        <div class="centerBlock">
-          <div class="question">
-            <p>Are you 21 or older?</p>
-          </div>
-          <div class="answer">
-            <a href="denied.html">No</a>
-            <a href="#" onclick="setCookie('nameOfCookie','valueOfCookie',365,QueryString.url);">Yes</a>    
-          </div>
-        </div>
+    <section class="parent">
+      <div class="child">
+        <table id="tbl_wrap" border=0>
+            <td><div>
+              Are you 21 or older?<BR>
+              <span class="yes_no"><a href="#" onclick="setCookie('nameOfCookie','valueOfCookie',365,QueryString.url);">Yes</a>     <a href="denied.html">No</a></span>
+              </div></td>
+              </tr></table>
+            </table>
       </div>
-    </div>
+    </section>
   </body>
 </html>

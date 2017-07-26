@@ -99,3 +99,7 @@ html, body {
   vertical-align: middle;
   text-align: center;
 }
+
+.yes_no{
+    white-space:pre; /* or pre-wrap if you want wrapping to still work.*/
+}
