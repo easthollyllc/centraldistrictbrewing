@@ -2,8 +2,8 @@ html{
     height: 100%;
 }
 body{
-    background-color: #F55824;
-    font-family: Bookman Old Style;
+    background-color: tomato;
+    font-family: Verdana, Geneva, Arial, sans-serif;
     font-size: 13pt;
     color: white;
     text-align: center;
