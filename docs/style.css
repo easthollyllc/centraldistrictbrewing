@@ -21,7 +21,7 @@ body a{
 }
 .denied-wrapper { 
     background-repeat: no-repeat;
-    background-color: #F55824;
+    background-color: tomato;
     height: 100%;
     display: table;
     width: 100%;
